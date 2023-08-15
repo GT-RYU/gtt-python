@@ -1,0 +1,25 @@
+site_name: Python 现代教程
+docs_dir: 'docs'
+copyright: 'Copyright © GoTask, Inc.'
+
+
+theme:
+  name: material
+  language: zh
+  icon:
+    logo: material/school
+    repo: fontawesome/brands/git-alt
+  font:
+    text: Noto Sans ZH
+    code: Inconsolata
+
+
+markdown_extensions:
+  - admonition
+
+
+nav:
+  - 简介: 简介.md
+  - 基础篇:
+    - 基础语法: 基础篇/基础语法.md
+    
